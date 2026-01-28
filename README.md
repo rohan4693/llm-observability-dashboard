@@ -21,3 +21,6 @@ A web-based dashboard visualizes these metrics to help developers understand and
 ```bash
 pip install -r requirements.txt
 python app.py
+
+
+License: MIT License
