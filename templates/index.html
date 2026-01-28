@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LLM Observability Demo</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <div class="container">
+        <h2>LLM Observability Prototype</h2>
+
+        <div class="card">
+            <form method="POST">
+                <input type="text" name="prompt" placeholder="Enter your prompt" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        {% if response %}
+        <div class="card">
+            <h3>Response</h3>
+            <p>{{ response }}</p>
+
+            <h3>Observability Metrics</h3>
+            <ul>
+                <li>Latency: {{ latency }} seconds</li>
+                <li>Tokens Used: {{ tokens }}</li>
+                <li>Cost: ${{ cost }}</li>
+            </ul>
+        </div>
+        
+
+        <div class="card">
+            <a href="/dashboard">View Observability Dashboard →</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+timestamp,prompt,response,latency,tokens,cost
+2026-01-28 19:43:27.197503,hello,Simulated response for: hello,0.73,5,5e-05
+2026-01-28 19:43:40.788678,How does observability improve reliability?,Simulated response for: How does observability improve reliability?,0.92,13,0.00013
+2026-01-28 19:43:49.042432,Describe cost optimization in AI systems,Simulated response for: Describe cost optimization in AI systems,0.92,15,0.00015
+2026-01-28 19:46:37.087140,What is LLM monitoring?,Simulated response for: What is LLM monitoring?,0.57,11,0.00011
+2026-01-28 19:54:29.707159,Explain logs metrics and traces in simple words,Simulated response for: Explain logs metrics and traces in simple words,0.54,23,0.00028
